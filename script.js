@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded",(event)=>{
 	console.log("Dom Content");
 	const divText = document.createElement("div");
 	divText.textContent = "DOM load success";
-	document.appendChild(divText)
+	document.body.appendChild(divText)
 })
